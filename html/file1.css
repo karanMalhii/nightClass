@@ -1,0 +1,19 @@
+#para3{
+    background-color: orange;
+    width: fit-content;
+
+    border: 2px solid green;
+    /* padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 45px; */
+
+    padding: 20px;
+
+    /* margin-left: 45px;
+    margin-top: 45px; */
+
+    /* margin: 70x; */
+
+    margin:10px auto;
+}
