@@ -9,46 +9,37 @@
         background-color: blue;
         color: white;
         display: flex;
-        justify-content: end;
-        /* align-items: flex-end; */
-        /* display: inline-block; */
+        justify-content: space-between;
+        align-items: center;
       }
 
-      ul {
+      ul,li {
         display: flex;
-        /* justify-content: end; */
         align-items: end;
         margin: 0px;
         padding: 20px;
+        font-weight: 200;
       }
-      .logo{
-        font-size: larger;
-        margin-left: 5%;
+      .logo {
         display: flex;
         justify-content: start;
+        align-items: start;
+        font-size: larger;
+        margin-left: 25px;
       }
     </style>
   </head>
   <body>
     <nav>
-      <p class="logo">Logo</p>
-      
-        <ul>
-          Home
-        </ul>
-        <ul>
-          About
-        </ul>
-        <ul>
-          Service
-        </ul>
-        <ul>
-          Team
-        </ul>
-        <ul>
-          contact
-        </ul>
-      
+      <div class="logo">Logo</div>
+
+      <ul>
+        <li>Home</li>
+        <li>Service</li>
+        <li>About</li>
+        <li>Informatin</li>
+        <li>Others</li>
+      </ul>
     </nav>
   </body>
 </html>
