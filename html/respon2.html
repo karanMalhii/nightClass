@@ -53,7 +53,7 @@
 
       /* @media only screen and (max-width: 600px) and (min-width: 400px)  {...} */
 
-      @media only screen and (max-width: 425px) {
+      @media only screen and (max-width: 425px) and (min-width: 220px) {
         .content {
           padding: 10px;
         }
@@ -74,7 +74,7 @@
           width: auto;
         }
       }
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 426px) and (max-width: 768px) {
         .content {
           padding: 31px;
         }
@@ -90,6 +90,21 @@
         }
         header {
           gap: 30px;
+        }
+      }
+
+      @media only screen and (min-width: 769px) and (max-width: 1124px) {
+        header {
+          gap: 20px;
+        }
+        img.content-image {
+          height: 200px;
+          width: 257px;
+        }
+        .content {
+
+          
+          padding: 20px;
         }
       }
     </style>
