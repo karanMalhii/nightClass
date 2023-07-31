@@ -1,78 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>task 2</title>
-<style>
-    /* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task 2</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
 
-/* Header Styles */
-header {
-  display: flex;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
+      /* Header Styles */
+      header {
+        display: flex;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
 
-/* Main Content Styles */
-.cardSection {
-  padding: 20px;
-  display: flex;
-  justify-content: space-evenly;
-}
+      /* Main Content Styles */
+      .cardSection {
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }
 
-section {
-  margin-bottom: 20px;
-  border: 1px solid #333;
-  padding: 15px;
-  max-width: 500px;
-}
+      section {
+        margin-bottom: 20px;
+        border: 1px solid #333;
+        padding: 15px;
+        max-width: 500px;
+      }
 
-/* Footer Styles */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
+      /* Footer Styles */
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
 
-.logo{
-  width: 100px;
-}
+      .logo {
+        width: 100px;
+      }
 
-.content{
-    padding: 0 200px;
-}
-@media only screen and (max-width: 425px){
-    .content {
-    padding: 10px;   
-}
-img.content-image {
-    height: 200px;
-    width: 387px;
-}
-.imageTextContainer {
-    margin: 10px;
-}
-.cardSection {
-    padding: 20px;
-    display: flex;
-    /* justify-content: space-evenly; */
-    flex-direction: column;
-
-}
-header{
-  width :auto;
-}
-}
-@media only screen and (min-width: 768px){
+      .content {
+        padding: 0 200px;
+      }
+      @media only screen and (max-width: 425px) {
+        .content {
+          padding: 10px;
+        }
+        img.content-image {
+          height: 200px;
+          width: 387px;
+        }
+        .imageTextContainer {
+          margin: 10px;
+        }
+        .cardSection {
+          padding: 20px;
+          display: flex;
+          /* justify-content: space-evenly; */
+          flex-direction: column;
+        }
+        header {
+          width: auto;
+        }
+      }
+      /* @media only screen and (min-width: 768px){
   .content {
     padding: 31px;
 }
@@ -90,43 +89,57 @@ section {
 header{
   gap:30px;
 }
-}
+} */
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Add the image here -->
+      <img
+        src="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg"
+        alt="Header Image"
+        class="logo"
+      />
+      <h1>Welcome to My Responsive Website</h1>
+    </header>
 
-
-</style>
-</head>
-<body>
-  <!-- Header Section -->
-  <header>
-    <!-- Add the image here -->
-    <img src="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg" alt="Header Image" class="logo">
-    <h1>Welcome to My Responsive Website</h1>
-  </header>
-
-  <!-- Main Content Section -->
-  <main>
-    <div class="content">
+    <!-- Main Content Section -->
+    <main>
+      <div class="content">
         <h2>Heading</h2>
         <div class="imageTextContainer">
-            <img src="https://images.unsplash.com/photo-1508919801845-fc2ae1bc2a28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1nfGVufDB8fDB8fHww&w=1000&q=80" alt="" class="content-image">
-            <div >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam est magnam, beatae in vitae fugiat consequatur aliquam doloribus natus nisi tenetur eum hic laboriosam. Adipisci voluptates impedit qui repudiandae dolore!</div>
+          <img
+            src="https://images.unsplash.com/photo-1508919801845-fc2ae1bc2a28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1nfGVufDB8fDB8fHww&w=1000&q=80"
+            alt=""
+            class="content-image"
+          />
+          <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam est
+            magnam, beatae in vitae fugiat consequatur aliquam doloribus natus
+            nisi tenetur eum hic laboriosam. Adipisci voluptates impedit qui
+            repudiandae dolore!
+          </div>
         </div>
-    </div>
-    <div class="cardSection">
+      </div>
+      <div class="cardSection">
         <section>
           <h2>About Us</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod est ut tellus sagittis tincidunt.</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod est ut tellus sagittis tincidunt.
+          </p>
         </section>
         <section>
           <h2>Contact</h2>
           <p>Email us at contact@example.com or call us at +1 123-456-7890.</p>
         </section>
-    </div>
-  </main>
+      </div>
+    </main>
 
-  <!-- Footer Section -->
-  <footer>
-    <p>&copy; 2023 My Responsive Website. All rights reserved.</p>
-  </footer>
-</body>
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2023 My Responsive Website. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
